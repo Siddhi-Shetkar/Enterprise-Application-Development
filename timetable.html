@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lab Timetable</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        body { background: #f8f9fa; }
+
+        .header-box { border: 2px solid #000; padding: 15px; text-align: center; }
+
+        table { border: 2px solid #000; }
+
+        table th, table td { border: 1px solid #000; text-align: center; height: 60px; }
+
+        .break { background-color: #f8c1a4; writing-mode: vertical-rl;
+        transform: rotate(180deg); font-weight: bold; }
+
+        .class-period { background-color: #d1e7fd; }
+
+        .alternate-period { background-color: #e2f9e1; }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <!-- Header Section -->
+        <div class="header-box">
+
+            <h3>ABC Engineering College</h3>
+
+            <h5>Department of Computer Science</h5>
+
+            <p><strong>Effective Date:</strong> 01-03-2026</p>
+
+        </div>
+
+        <!-- Timetable -->
+        <div class="table-responsive">
+
+            <table class="table">
+
+                <thead class="table-light">
+
+                    <tr>
+
+                        <th>Day</th>
+
+                        <th>9:00 - 10:00</th>
+
+                        <th>10:00 - 11:00</th>
+
+                        <th>11:00 - 12:00</th>
+
+                        <th>12:00 - 1:00</th>
+
+                        <th>1:00 - 2:00</th>
+
+                        <th>2:00 - 3:00</th>
+
+                        <th>3:00 - 4:00</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <!-- Monday -->
+                    <tr>
+
+                        <th>Monday</th>
+
+                        <td colspan="2" class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="break" rowspan="5">Lunch Break</td>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="class-period"></td>
+
+                    </tr>
+
+                    <!-- Tuesday -->
+                    <tr>
+
+                        <th>Tuesday</th>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="class-period"></td>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="class-period"></td>
+
+                    </tr>
+
+                    <!-- Wednesday -->
+                    <tr>
+
+                        <th>Wednesday</th>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                    </tr>
+
+                    <!-- Thursday -->
+                    <tr>
+
+                        <th>Thursday</th>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="class-period"></td>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="class-period"></td>
+
+                    </tr>
+
+                    <!-- Friday -->
+                    <tr>
+
+                        <th>Friday</th>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                        <td class="class-period"></td>
+
+                        <td class="alternate-period"></td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
